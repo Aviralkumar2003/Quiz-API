@@ -1,13 +1,16 @@
 Quiz Application
+
     The Quiz Application is a web-based system designed to facilitate quizzes in various categories. This application allows users to create quizzes, attempt them, and receive scores based on their responses. It provides functionalities for administrators to manage quizzes and questions effectively.
 
 Table of Contents
+
     Features
     Technologies Used
     Setup
     Usage
 
 Features
+
     Quiz Creation: Users can create quizzes by selecting questions from predefined categories.
                   Random Question Selection: The application randomly selects questions from the chosen category for each quiz.
     Quiz Attempt: Users can attempt quizzes and submit their responses.
@@ -16,6 +19,7 @@ Features
     Responsive Design: The application is designed to be responsive, supporting various devices.
 
 Technologies Used
+
     Spring Boot: Framework for building robust Java applications.
     Spring Data JPA: Simplifies data access in the Spring application.
     Hibernate: Object-relational mapping tool for the Java platform.
@@ -24,6 +28,7 @@ Technologies Used
     PostgresSQL: Relational database management system for data storage.
 
 Setup
+
     Clone the Repository:
         git clone https://github.com/Aviralkumar2003/Quiz-API.git
 
@@ -39,5 +44,6 @@ Setup
         Open a web browser and go to http://localhost:8080.
 
 Usage
+
     User: Sign up or log in to the application to access quizzes. Attempt quizzes and view scores.
     Admin: Log in as an admin to access the admin panel. Manage quizzes, add questions, and categories.
